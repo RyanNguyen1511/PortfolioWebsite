@@ -159,7 +159,7 @@ export default function Home() {
                 ABOUT ME
               </h2>
               </ParallaxLayer>
-              <p className="phone:text-xl lg:text-4xl phone:pl-9 lg:pl-72 phone:pr-9 lg:pr-36  text-md text-gray-600">
+              <p className="phone:text-xl lg:text-4xl phone:pl-9 lg:pl-80 phone:pr-9 lg:pr-36 font-confortaa text-gray-600">
               Software developer who have enthusiasm for coding and testing software. With a serious passionate about new technologies and commit with lifelong learning.
               </p>
               </div>
