@@ -3,8 +3,8 @@
 import Head from 'next/head'
 import {AiFillLinkedin,AiOutlineGithub } from 'react-icons/ai';
 import {CgProfile} from 'react-icons/cg';
-import {SiPostgresql,SiSelenium,SiApachejmeter,SiPython,SiJava,SiAndroidstudio,SiFirebase,SiGooglecolab,SiJirasoftware,SiConfluence,SiOpencv,SiKeras,SiDjango, SiMysql,SiJupyter} from 'react-icons/Si';
-import {ImEmbed2} from 'react-icons/Im';
+import {SiPostgresql,SiSelenium,SiApachejmeter,SiPython,SiJava,SiAndroidstudio,SiFirebase,SiGooglecolab,SiJirasoftware,SiConfluence,SiOpencv,SiKeras,SiDjango, SiMysql,SiJupyter} from 'react-icons/si';
+import {ImEmbed2} from 'react-icons/im';
 import {GiArtificialIntelligence} from 'react-icons/gi';
 import {IoLogoHtml5,IoLogoCss3,IoLogoJavascript,IoLogoPython} from 'react-icons/Io';
 import Image from "next/image";
