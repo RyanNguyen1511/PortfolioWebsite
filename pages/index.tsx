@@ -6,7 +6,7 @@ import {CgProfile} from 'react-icons/cg';
 import {SiPostgresql,SiSelenium,SiApachejmeter,SiPython,SiJava,SiAndroidstudio,SiFirebase,SiGooglecolab,SiJirasoftware,SiConfluence,SiOpencv,SiKeras,SiDjango, SiMysql,SiJupyter} from 'react-icons/si';
 import {ImEmbed2} from 'react-icons/im';
 import {GiArtificialIntelligence} from 'react-icons/gi';
-import {IoLogoHtml5,IoLogoCss3,IoLogoJavascript,IoLogoPython} from 'react-icons/Io';
+import {IoLogoHtml5,IoLogoCss3,IoLogoJavascript,IoLogoPython} from 'react-icons/io';
 import Image from "next/image";
 import tuandev from '../public/TuanAvatar.png';
 import bp1 from '../public/bp1.png';
