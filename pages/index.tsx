@@ -55,7 +55,7 @@ export default function Home() {
             marginLeft:'50px',
             }} >
               <div>
-                <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-400 text-opacity-20 absolute mt-9
+                <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-700 text-opacity-20 absolute mt-9
                 ">PROJECTS</h2>
               </div>
           </ParallaxLayer>
@@ -64,7 +64,7 @@ export default function Home() {
             marginLeft:'50px',
             }}>
             <div>
-              <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-400 text-opacity-20 absolute mt-9
+              <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-700 text-opacity-20 absolute mt-9
                 ">EXPERIENCE</h2>
             </div>
           </ParallaxLayer>
@@ -73,7 +73,7 @@ export default function Home() {
             marginLeft:'50px',
             }}>
             <div>
-              <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-400 text-opacity-20 absolute mt-9
+              <h2 className=" phone:text-4xl lg:text-8xl font-semibold text-gray-700 text-opacity-20 absolute mt-9
                 ">EDUCATION</h2>
             </div>
           </ParallaxLayer>
@@ -162,7 +162,7 @@ export default function Home() {
                     display: 'flex',
                     alignItems: 'center',
                   }} >
-              <h2 className=" phone:text-9xl lg:text-10xl text py-1 font-semibold text-gray-400 text-opacity-20 absolute
+              <h2 className=" phone:text-9xl lg:text-10xl text py-1 font-semibold text-gray-700 text-opacity-20 absolute
               " >
                 ABOUT ME
               </h2>
