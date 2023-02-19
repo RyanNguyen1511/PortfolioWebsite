@@ -129,7 +129,11 @@ export default function Home() {
               >Software Developer and Tester</h3>
               
             </div>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600"  data-aos = "fade-up"
+              data-aos-duration = "1000"
+              data-aos-easing="ease-in-sine"
+              data-aos-mirror="true"
+              data-aos-delay="300">
 
               <a href="https://www.linkedin.com/in/tuann1511/" target="_blank" rel="noopener noreferrer"><AiFillLinkedin/></a>
 
@@ -137,7 +141,11 @@ export default function Home() {
               
               <a  href="https://drive.google.com/file/d/19Jj7xBoSsoj3UznDA1hkJUNwk2zkSj6N/view" target="_blank" rel="noopener noreferrer"><CgProfile/></a>
             </div>
-            <div className="relative mx-auto bg-gradient-to-b from-emerald-500 to-cyan-400 rounded-full w-32 h-32 overflow-hidden my-6">
+            <div className="relative mx-auto bg-gradient-to-b from-emerald-500 to-cyan-400 rounded-full w-32 h-32 overflow-hidden my-6"  data-aos = "fade-up"
+              data-aos-duration = "1000"
+              data-aos-easing="ease-in-sine"
+              data-aos-mirror="true"
+              data-aos-delay="400">
               <Image src={tuandev} alt='TuanNguyen'/>
             </div>
 
