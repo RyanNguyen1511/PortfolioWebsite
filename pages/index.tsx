@@ -17,14 +17,12 @@ import PE1 from '../public/PE1.png';
 import PE2 from '../public/PE2.png';
 import PE3 from '../public/PE3.png';
 import LI1 from '../public/logit1.png';
-import LI2 from '../public/logit2.png';
 import LI3 from '../public/logit3.png';
 import ST1 from '../public/ST1.png';
 import ST2 from '../public/ST2.png';
 import ST3 from '../public/ST3.png';
 import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
-import { useScroll, animated, useSpring  } from '@react-spring/web'
 
 
 
@@ -42,7 +40,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
-        
         {/* AOS */}
         <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet"></link>
         
