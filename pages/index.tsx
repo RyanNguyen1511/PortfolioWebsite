@@ -3,7 +3,7 @@
 import Head from 'next/head'
 import {AiFillLinkedin,AiOutlineGithub } from 'react-icons/ai';
 import {CgProfile} from 'react-icons/cg';
-import {SiPostgresql,SiSelenium,SiApachejmeter,SiPython,SiJava,SiAndroidstudio,SiFirebase,SiGooglecolab,SiJirasoftware,SiConfluence,SiOpencv,SiKeras,SiDjango, SiMysql,SiJupyter} from 'react-icons/si';
+import {SiPostgresql,SiSelenium,SiApachejmeter,SiPython,SiJava,SiAndroidstudio,SiFirebase,SiGooglecolab,SiJirasoftware,SiConfluence,SiOpencv,SiKeras,SiDjango, SiMysql,SiJupyter,SiIntellijidea} from 'react-icons/si';
 import {ImEmbed2} from 'react-icons/im';
 import {GiArtificialIntelligence} from 'react-icons/gi';
 import {IoLogoHtml5,IoLogoCss3,IoLogoJavascript,IoLogoPython} from 'react-icons/io';
@@ -23,6 +23,9 @@ import LI3 from '../public/logit3.png';
 import ST1 from '../public/ST1.png';
 import ST2 from '../public/ST2.png';
 import ST3 from '../public/ST3.png';
+import SL1 from '../public/SL1.png';
+import SL2 from '../public/SL2.png';
+import SL3 from '../public/SL3.png';
 import React, { useRef } from 'react'
 import { Parallax, ParallaxLayer, IParallax } from '@react-spring/parallax';
 
@@ -49,8 +52,8 @@ export default function Home() {
 
       <main className="bg-white">
           
-          <Parallax ref={parallax} pages={10}>
-          <ParallaxLayer sticky={{start:2, end:5}} style={{
+          <Parallax ref={parallax} pages={11}>
+          <ParallaxLayer sticky={{start:2, end:6}} style={{
             display: 'flex',
             marginLeft:'50px',
             }} >
@@ -59,7 +62,7 @@ export default function Home() {
                 ">PROJECTS</h2>
               </div>
           </ParallaxLayer>
-          <ParallaxLayer sticky={{start:6, end:6}} style={{
+          <ParallaxLayer sticky={{start:7, end:7}} style={{
             display: 'flex',
             marginLeft:'50px',
             }}>
@@ -68,7 +71,7 @@ export default function Home() {
                 ">EXPERIENCE</h2>
             </div>
           </ParallaxLayer>
-          <ParallaxLayer sticky={{start:7, end:8}} style={{
+          <ParallaxLayer sticky={{start:8, end:9}} style={{
             display: 'flex',
             marginLeft:'50px',
             }}>
@@ -151,9 +154,8 @@ export default function Home() {
 
           </section>
           </ParallaxLayer>
-          
-          <ParallaxLayer offset ={1} >
           {/* PAGE 2 : ABOUT ME */}
+          <ParallaxLayer offset ={1} >
           <section id="AboutMe" className="min-h-screen px-5">
             <div className="flex h-screen">
               
@@ -175,14 +177,104 @@ export default function Home() {
             </div>
           </section>
           </ParallaxLayer>
-          
-          {/* PAGE 3 : BLOOD PRESSURE*/}
+          {/* PAGE 3 : Flight Hub Web scraping*/}
           <ParallaxLayer offset ={2}>
           <section id = "Projects" className="min-h-screen min-w-screen text-gray-700 px-5">
             <div className="flex h-screen">
 
               {/* 3 Text illustration section */}
               <ParallaxLayer offset={0} horizontal speed ={0.5} style={{ 
+                display: 'flex',
+                justifyContent: 'center',
+                width: '100%',
+              }}>
+              <div className="my-auto w-10/12 pl-50%">
+                <h2 className="phone:text-4xl lg:text-6xl text font-bold font-arcuta " >
+                  FlightHub Web scraping
+                  </h2>
+                <h3 className='phone:text-lg lg:text-2xl py-4 font-arcuta'
+                  data-aos = "zoom-in-up"
+                  data-aos-offset = "100"
+                  data-aos-duration = "1000"
+                  data-aos-delay ="200"> Selenium <span className="px-4">●</span> Java <span className="px-4">●</span> Intellij</h3>         
+                <ul className="phone:text-base lg:text-xl list-outside list-disc font-confortaa "
+                  data-aos = "zoom-in-up"
+                  data-aos-offset = "100"
+                  data-aos-duration = "1000"
+                  data-aos-delay ="300">
+                  <li className="py-2">The FlightHub Web Scraping Project aims to collect data on flight prices, schedules, and availability from the FlightHub website. 
+                  </li>
+                  <li className="py-2">
+                  This project will involve developing a web scraping script to automatically extract the necessary information from the FlightHub website and store it in a structured format for further analysis.
+                  </li>
+                  <li className="py-2">This project using Selenium and Java as the main  framework and programming language.
+                  </li>
+                </ul>
+                <div className="text-4xl flex gap-16 py-3 text-gray-600"
+                data-aos = "zoom-in-up"
+                data-aos-offset = "100"
+                data-aos-duration = "1000"
+                data-aos-delay ="400">
+                  <SiSelenium/>
+                  <SiJava/>
+                  <SiIntellijidea/>
+                </div>
+              </div>
+
+              </ParallaxLayer>
+              {/* 3 Image illustration section */}
+              <div className='mt-32 ml-24 flex w-6/12 lg:inline phone:hidden'>
+                
+                  <ParallaxLayer offset={0} speed={0.2}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    marginTop :'450px',
+                    marginLeft: "55%",
+                    
+                  }} 
+                  >
+
+                  <div className="mt-24 absolute object-none object-left-top mx-auto">
+                    <Image src={SL3} alt='TuanNguyen' />
+                  </div>
+                  </ParallaxLayer>
+
+                  <ParallaxLayer offset={0} speed={0.35}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    marginTop :'450px',
+                    marginLeft: "53%",
+                    
+                  }}>
+                  <div className="mt-52 ml-24 absolute  object-none object-center mx-auto">
+                    <Image src={SL1} alt='TuanNguyen' />
+                  </div>
+                  </ParallaxLayer>
+                  <ParallaxLayer offset={0} speed={0.25}
+                  style={{
+                    display: 'flex',
+                    alignItems: 'center',
+                    marginTop :'450px',
+                    marginLeft: "56%", 
+                  }}>
+                  <div className=" mt-52 ml-72 absolute object-none object-right-bottom mx-auto bg-gradient-to-b w-auto h-auto overflow-hidden my-6">
+                    <Image src={SL2} alt='TuanNguyen' />
+                  </div>
+                  </ParallaxLayer>
+
+              </div>
+            </div>
+          </section>
+          </ParallaxLayer>
+          {/* PAGE 4 : BLOOD PRESSURE*/}
+          <ParallaxLayer offset ={3}>
+          <section id = "Projects" className="min-h-screen min-w-screen text-gray-700 px-5">
+            <div className="flex h-screen">
+
+              {/* 3 Text illustration section */}
+              <ParallaxLayer offset={1} horizontal speed ={1.03} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
                 width: '100%',
@@ -229,7 +321,7 @@ export default function Home() {
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    marginTop :'450px',
+                    marginTop :'550px',
                     marginLeft: "55%",
                     
                   }} 
@@ -244,7 +336,7 @@ export default function Home() {
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    marginTop :'450px',
+                    marginTop :'950px',
                     marginLeft: "53%",
                     
                   }}>
@@ -256,7 +348,7 @@ export default function Home() {
                   style={{
                     display: 'flex',
                     alignItems: 'center',
-                    marginTop :'450px',
+                    marginTop :'550px',
                     marginLeft: "56%", 
                   }}>
                   <div className=" mt-52 ml-96 absolute object-none object-right-bottom mx-auto bg-gradient-to-b w-auto h-auto overflow-hidden my-6">
@@ -269,13 +361,13 @@ export default function Home() {
           </section>
           </ParallaxLayer>
 
-          {/* PAGE 4 : MACHINE LEARNING */}
-          <ParallaxLayer offset={3}>
+          {/* PAGE 5 : MACHINE LEARNING */}
+          <ParallaxLayer offset={4}>
           <section className="min-h-screen text-gray-700 px-5">
 
             <div className="flex h-screen">
 
-              <ParallaxLayer offset={1} horizontal speed ={1} style={{ 
+              <ParallaxLayer offset={2} horizontal speed ={1.55} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
                 width: '100%',
@@ -312,7 +404,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'2000px',
+                      marginTop :'2800px',
                       marginLeft: "45%",
                       
                 }}>
@@ -325,11 +417,11 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'1400px',
+                      marginTop :'1900px',
                       marginLeft: "55%",
                       
                 }}>
-                <div className="mt-20 ml-96 absolute  object-none object-center mx-auto">
+                <div className="mt-20 ml-80 absolute  object-none object-center mx-auto">
                   <Image src={ML2} alt='TuanNguyen' />
                 </div>
                 </ParallaxLayer>
@@ -337,7 +429,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'800px',
+                      marginTop :'1000px',
                       marginLeft: "50%",
                       
                 }}>
@@ -350,12 +442,12 @@ export default function Home() {
           </section>
           </ParallaxLayer>
 
-          {/* PAGE 5 : Prexeco */}
-          <ParallaxLayer offset={4}>
+          {/* PAGE 6 : Prexeco */}
+          <ParallaxLayer offset={5}>
           <section className="min-h-screen text-gray-700 px-5">
             <div className="flex h-screen">
               {/* 5 Text illustration section */}
-              <ParallaxLayer offset={2} horizontal speed ={1} style={{ 
+              <ParallaxLayer offset={2} horizontal speed ={0.68} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -390,7 +482,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'1800px',
+                      marginTop :'3000px',
                       marginLeft: "45%",
                 }}>
                 <div className="ml-24 absolute object-none object-left-top mx-auto w-auto h-auto overflow-hidden">
@@ -402,7 +494,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'1100px',
+                      marginTop :'1900px',
                       marginLeft: "50%",
                       
                 }}>
@@ -415,7 +507,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'500px',
+                      marginTop :'700px',
                       marginLeft: "45%",
                       
                 }}>
@@ -428,12 +520,12 @@ export default function Home() {
           </section>
           </ParallaxLayer>
           
-          {/* PAGE 6 : Logit Website */}
-          <ParallaxLayer offset={5}>
+          {/* PAGE 7 : Logit Website */}
+          <ParallaxLayer offset={6}> 
           <section className="min-h-screen text-gray-700 px-5">
             <div className="flex h-screen">
               {/* Text illustration section */}
-              <ParallaxLayer offset={3} horizontal speed ={1.5} style={{ 
+              <ParallaxLayer offset={3} horizontal speed ={1.04} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -442,6 +534,8 @@ export default function Home() {
                 <h3 className='phone:text-lg lg:text-2xl py-4 font-arcuta'> Front-end Development <span className="px-4">●</span> Django </h3>
                 <ul className="phone:text-base lg:text-xl list-outside list-disc font-confortaa ">
                   <li className="py-2">Designed and developed website for Timber buyers to access information about Timber Sales in BC.
+                  </li>
+                  <li className="py-2">Website using Django framework for backend and Bootstrap framework for frontend.
                   </li>
                 </ul>
                 <div>
@@ -463,7 +557,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'800px',
+                      marginTop :'1300px',
                       marginLeft: "50%",
                 }}>
                 <div className="ml-12 absolute object-none object-left-top mx-auto w-auto h-auto overflow-hidden">
@@ -474,7 +568,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'2900px',
+                      marginTop :'3800px',
                       marginLeft: "50%",
                 }}>
                 <div className="mt-52 ml-64 absolute  object-none object-center mx-auto">
@@ -486,12 +580,12 @@ export default function Home() {
           </section>
           </ParallaxLayer>
 
-          {/* PAGE 7 : Experience */}
-          <ParallaxLayer offset={6}>
+          {/* PAGE 8 : Experience */}
+          <ParallaxLayer offset={7}>
           <section id= "Experience" className="min-h-screen text-gray-700 px-5">
             <div className="flex h-screen">
               
-              <ParallaxLayer offset={3} horizontal speed ={1} style={{ 
+              <ParallaxLayer offset={4} horizontal speed ={1.32} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -532,7 +626,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'1400px',
+                      marginTop :'2000px',
                       marginLeft: "50%",
                 }}>
                 <div className="ml-12 absolute object-none object-left-top mx-auto w-auto h-auto overflow-hidden">
@@ -543,7 +637,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'-200px',
+                      marginTop :'900px',
                       marginLeft: "50%",
                 }}>
                 <div className="mt-52 ml-96 absolute  object-none object-center mx-auto">
@@ -554,7 +648,7 @@ export default function Home() {
                     style={{
                       display: 'flex',
                       alignItems: 'center',
-                      marginTop :'1500px',
+                      marginTop :'3000px',
                       marginLeft: "55%",
                 }}>
                 <div className=" mt-80 ml-32 absolute mx-auto w-auto h-auto overflow-hidden my-6">
@@ -565,14 +659,14 @@ export default function Home() {
             </div>
           </section>
           </ParallaxLayer>
-          {/* PAGE 8 : Education */}
-          <ParallaxLayer offset={7}>
+          {/* PAGE 9 : Education */}
+          <ParallaxLayer offset={8}>
           <section id="Education" className="min-h-screen text-gray-700 px-5">
             <div className="flex h-screen">
               <div>
                 <h2 className="text-2xl absolute pt-10 font-semibold"></h2>
               </div>
-              <ParallaxLayer offset ={2} horizontal speed={0.4} style={{ 
+              <ParallaxLayer offset ={3} horizontal speed={0.6} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -603,7 +697,7 @@ export default function Home() {
                 </ul>
               </div>
               </ParallaxLayer>
-              <ParallaxLayer offset ={-2} horizontal speed={-0.32} style={{ 
+              <ParallaxLayer offset ={-2} horizontal speed={-0.3} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -631,14 +725,14 @@ export default function Home() {
           </section>
           </ParallaxLayer>
           
-          {/* PAGE 9 : SKILLS */}
-          <ParallaxLayer offset={8}>
+          {/* PAGE 10 : SKILLS */}
+          <ParallaxLayer offset={9}>
           <section id="Education" className="min-h-screen text-gray-700 px-5">
             <div className="flex h-screen">
               <div>
                 <h2 className="text-2xl absolute pt-10 font-semibold"></h2>
               </div>
-              <ParallaxLayer offset ={3} horizontal speed={0.6} style={{ 
+              <ParallaxLayer offset ={3} horizontal speed={0.5} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -678,7 +772,7 @@ export default function Home() {
                 </ul>
               </div>
               </ParallaxLayer>
-              <ParallaxLayer offset ={-3} horizontal speed={-0.36} style={{ 
+              <ParallaxLayer offset ={-3} horizontal speed={-0.34} style={{ 
                 display: 'flex',
                 justifyContent: 'center',
               }}>
@@ -733,8 +827,8 @@ export default function Home() {
           </section>
           </ParallaxLayer>
 
-          {/* PAGE 9 : Form */}
-          <ParallaxLayer offset={9}>
+          {/* PAGE 11   : Form */}
+          <ParallaxLayer offset={10}>
           <section className="min-h-screen text-gray-700 min-w-screen px-5">
             <div className=" mt-24 flex items-center justify-center">
             <hr className="min-w-full h-px my-8 bg-gray-200 border-0 dark:bg-gray-200"/>
