@@ -142,7 +142,7 @@ export default function Home() {
 
               <a  href="https://github.com/RyanNguyen1511" target="_blank" rel="noopener noreferrer"><AiOutlineGithub/></a>
               
-              <a  href="https://drive.google.com/file/d/1we8YNxJSYLvny98GNfrRoIZtnn-_KY-D/view?usp=sharing" target="_blank" rel="noopener noreferrer"><CgProfile/></a>
+              <a  href="https://drive.google.com/file/d/1thNSJBVpEAJLCgeVLELebSh65baXUnSI/view" target="_blank" rel="noopener noreferrer"><CgProfile/></a>
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-emerald-500 to-cyan-400 rounded-full w-32 h-32 overflow-hidden my-6"  data-aos = "fade-up"
               data-aos-duration = "1000"
@@ -706,15 +706,17 @@ export default function Home() {
                 <h2 className="phone:text-4xl lg:text-6xl text font-bold font-arcuta "> Certificate </h2>
                 <ul className="phone:text-base lg:text-xl mt-4 list-outside list-disc font-confortaa ">
                   <h3 className='phone:text-lg lg:text-2xl py-1 font-arcuta text-purple-500'>Udemy</h3>
-                  <h3 className='phone:text-lg lg:text-2xl py-1 font-arcuta'>January 2023</h3>
                   <li className="py-2">
-                  The Complete Python Bootcamp From Zero to Hero in Python <span className="font-bold text-purple-500">Certificate</span>, Udemy.
+                  The Complete Python Bootcamp From Zero to Hero in Python Certificate.
                   </li>
-                  <hr className='my-4' />
-                  <h3 className='phone:text-lg lg:text-2xl py-1 font-arcuta text-purple-500'>Udemy</h3>
-                  <h3 className='phone:text-lg lg:text-2xl py-1 font-arcuta'>February 2023</h3>
                   <li className="py-2">
-                  The Complete SQL Bootcamp: Go from Zero to Hero <span className="font-bold text-purple-500">Certificate</span>, Udemy
+                  The Complete SQL Bootcamp: Go from Zero to Hero Certificate.
+                  </li>
+                  <li className="py-2">
+                  Learn Web and API Automation using Cypress with JavaScript Certificate.
+                  </li>
+                  <li className="py-2">
+                  IT Support Technical Skills Bootcamp Certificate.
                   </li>
                   
                 </ul>
