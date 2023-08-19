@@ -142,7 +142,7 @@ export default function Home() {
 
               <a  href="https://github.com/RyanNguyen1511" target="_blank" rel="noopener noreferrer"><AiOutlineGithub/></a>
               
-              <a  href="https://drive.google.com/drive/u/0/folders/1wsSA3otOTsbxZkLVN0Clv1yTCbZCTYKv" target="_blank" rel="noopener noreferrer"><CgProfile/></a>
+              <a  href="https://drive.google.com/file/d/1we8YNxJSYLvny98GNfrRoIZtnn-_KY-D/view?usp=sharing" target="_blank" rel="noopener noreferrer"><CgProfile/></a>
             </div>
             <div className="relative mx-auto bg-gradient-to-b from-emerald-500 to-cyan-400 rounded-full w-32 h-32 overflow-hidden my-6"  data-aos = "fade-up"
               data-aos-duration = "1000"
