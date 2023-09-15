@@ -718,6 +718,9 @@ export default function Home() {
                   <li className="py-2">
                   IT Support Technical Skills Bootcamp Certificate.
                   </li>
+                  <li className="py-2">
+                  Learn SDET Essentials - Full Stack QA Automation, Udemy
+                  </li>
                   
                 </ul>
                 </div>
